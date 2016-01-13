@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">My Best Deal</string>
+    <string name="action_settings">Settings</string>
+    <string name="api_key">b729b06dd830d21d577dd3348939d4c3d0c7c990</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="pref_sort_label">Sort By</string>
+    <string name="pref_sort_key">sort</string>
+    <string name="pref_sort_rating">highest_rated</string>
+    <string name="pref_stock_key">stock</string>
+    <string name="pref_website_title">Choose your Websites to Filter</string>
+    <string name="pref_website_key">website</string>
+
+    <array name="pref_sort_values">
+        <item>lower_price</item>
+        <item>higher_price</item>
+        <item>highest_rated</item>
+    </array>
+
+    <array name="pref_sort_options">
+        <item>Lowest Price</item>
+        <item>Highest Price</item>
+        <item>Highest Rated</item>
+    </array>
+
+    <array name="pref_website_values">
+        <item>flipkart</item>
+        <item>amazon</item>
+        <item>snapdeal</item>
+        <item>indiatimesshopping</item>
+        <item>maniacstore</item>
+    </array>
+
+    <array name="pref_website_defaultValues">
+        <item>flipkart</item>
+        <item>amazon</item>
+        <item>snapdeal</item>
+        <item>indiatimesshopping</item>
+        <item>maniacstore</item>
+    </array>
+
+    <array name="pref_website_options">
+        <item>Flipkart</item>
+        <item>Amazon</item>
+        <item>Snapdeal</item>
+        <item>IndiatimesShopping</item>
+        <item>Maniacstore</item>
+    </array>
+    <string name="title_activity_detail">DetailActivity</string>
+
+</resources>

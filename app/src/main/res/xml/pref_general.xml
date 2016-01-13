@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="@string/pref_sort_label"
+        android:key="@string/pref_sort_key"
+        android:defaultValue="@string/pref_sort_rating"
+        android:entryValues="@array/pref_sort_values"
+        android:entries="@array/pref_sort_options"
+        />
+    <CheckBoxPreference
+        android:title="Include Out of Stock"
+        android:key="@string/pref_stock_key"
+        android:defaultValue="true"
+        />
+    <MultiSelectListPreference
+        android:title="@string/pref_website_title"
+        android:key="@string/pref_website_key"
+        android:defaultValue="@array/pref_website_defaultValues"
+        android:entryValues="@array/pref_website_values"
+        android:entries="@array/pref_website_options"/>
+
+</PreferenceScreen>
